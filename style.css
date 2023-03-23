@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    min-width: 1340px;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+/* ======================== Star Main Area ================ */
+
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ======================== Star Nav Area ================ */
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+
+.bar-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-li{
+    list-style: none;
+    padding-left: 3rem;
+}
+
+.bar-a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Barlow";
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.bar-act{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
+    border-radius: 25px;
+    padding: 1rem 2rem;
+}
+
+.bar-act:hover{
+    background-color: hsl(198, 62%, 26%);
+    color: hsl(0, 0%, 100%);
+}
+
+#ham{
+    display: none;
+}
+
+/* ======================== End Nav Area ================ */
+/* ======================== Start Home Area ================ */
+
+#home{
+    min-height: 90vh; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.home-h1{
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.arrow{
+    margin-top: 15rem;
+    position: absolute;
+}
+
+/* ======================== End Home Area ================ */
+/* ======================== Start About Area ================ */
+
+.brand, .stand{
+    display: flex;
+}
+
+.info-img{
+    width: 50%;
+    height: 600px;
+}
+
+.info{
+    width: 50%;
+    padding: 10rem 10rem;
+}
+
+.brand-h2{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces';
+    font-weight: 900;
+    width: 19rem;
+    line-height: 2.4rem;
+    font-size: 2rem;
+}
+
+.stand-h2{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces';
+    font-weight: 900;
+    width: 22rem;
+    line-height: 2.4rem;
+    font-size: 2rem;
+}
+
+.brand-para, .stand-para{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow';
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+
+.brand-a{
+    margin-top: 2rem;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow';
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-thickness: 4px;
+}
+
+.stand-a{
+    margin-top: 2rem;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow';
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-thickness: 4px;
+    
+}
+/* ======================== End About Area ================ */
+/* ======================== Start Services Area ================ */
+
+#service{
+    display: flex;
+    min-height: 75vh;
+}
+
+.vice{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+
+.vice-h2{
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces';
+    margin-top: 25rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.vice-para{
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow';
+    width: 25rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    margin-left: 220px;
+    margin-top: 2rem;
+}
+
+.vice1{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background-image: url(./images/desktop/image-photography.jpg);
+}
+
+.vice1-h2{
+    color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces';
+    margin-top: 25rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.vice1-para{
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow';
+    width: 25rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    margin-left: 220px;
+    margin-top: 2rem;
+}
+
+/* ======================== End Services Area ================ */
+/* ======================== Start Client Area ================ */
+
+#client{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.client-h3{
+    margin-top: 10rem;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    font-weight: 900;
+    color: hsl(232, 10%, 55%);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.people{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+}
+
+.person-img{
+    border-radius: 100%;
+    width: 5rem;
+}
+
+.person-para{
+    width: 24rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Barlow';
+    color: hsl(213, 9%, 39%);
+}
+
+.person-h4{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Fraunces';
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 2rem;
+}
+
+.person-span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Barlow';
+    color: hsl(210, 4%, 67%);
+}
+
+/* ======================== End Client Area ================ */
+/* ======================== Start Project Area ================ */
+
+#project{
+    display: flex
+}
+
+.project-img{
+    width: 25%;
+}
+
+/* ======================== End Project Area ================ */
+/* ======================== Start Contact Area ================ */
+
+#contact{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.contact-logo{
+    margin-top: 6rem;
+    filter: invert(80%) sepia(21%) saturate(751%) hue-rotate(92deg) brightness(95%) contrast(100%);
+}
+
+.contact-ul{
+    margin-top: 08rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-li{
+    list-style: none;
+    margin-left: 5rem;
+}
+
+.contact-a{
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Barlow';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.icon{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img{
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.icon-img:hover{
+    filter: invert(0) sepia(0) saturate(1)  hue-rotate(0deg) brightness(5);
+}
+
+/* ======================== End Contact Area ================ */
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+    /* margin-top: 70px; */
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+
+@media screen and (max-width: 1400px){
+    .arrow{
+        margin-top: 9rem;
+
+    }
+
+    .vice-para, .vice1-para{
+        margin-left: 140px;
+        padding-bottom: 2rem;
+    }
+}  
+
+@media screen and (max-width: 1350px){
+    .arrow{
+        margin-top: 11rem;
+    }
+}
+
+@media screen and (min-width:786px){
+    .bar-ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:375px){
+    body{
+        min-width: 375px;
+    }
+
+    header{
+        background-image: url(./images/mobile/image-header.jpg);
+        background-size: contain;
+    }
+
+    .brand> .info-img{
+        content: url(./images/mobile/image-transform.jpg);
+    }
+
+    .stand> .info-img{
+        content: url(./images/mobile/image-stand-out.jpg);
+    }
+
+    .vice{
+        background-image: url(./images/mobile/image-graphic-design.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .vice1{
+        background-image: url(./images/mobile/image-photography.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: -0.2rem;
+    }
+
+    .project-img:nth-child(1){
+        content: url(./images/mobile/image-gallery-milkbottles.jpg);
+    }
+    .project-img:nth-child(2){
+        content: url(./images/mobile/image-gallery-orange.jpg);
+    }
+    .project-img:nth-child(3){
+        content: url(./images/mobile/image-gallery-cone.jpg);
+    }
+    .project-img:nth-child(4){
+        content: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+    }
+
+    .bar-ul, .people, .stand, #service{
+        flex-direction: column;
+    }
+
+    .brand{
+        flex-direction: column-reverse;
+    }
+
+    .info-img, .vice, .vice1, .info{
+        width: 100%;
+    }
+
+    .info{
+        padding: 5rem 1rem;
+    }
+
+    .bar-act{
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    #ham{
+        display: block;
+    }
+
+    .home-h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .arrow{
+        margin-top: 1rem;
+    }
+
+    .brand, .stand{
+        text-align: center;
+    }
+
+    .brand-para {
+        width: 19rem;
+    }
+
+    .stand-h2{
+        width: 20rem;
+    }
+
+    .stand-para{
+        width: 18rem;
+    }
+
+    #about{
+        margin-top: -16.4rem;
+    }
+
+    .vice-para, .vice1-para{
+        width: 22rem;
+        margin-left: 0px;
+        font-size: 1rem;
+    }
+
+    .client-h3{
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .people{
+        margin-top: 2rem;
+    }
+
+    .person-img{
+        margin-top: 3rem;
+    }
+
+    .person-para{
+        margin-top: 1.5rem;
+    }
+
+    #project{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-img{       
+        width: 100%;
+    }
+
+    @keyframes slide-in {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+      
+      @keyframes slide-out {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(100%);
+        }
+      }
+
+    .bar-ul{
+        display: none;
+        background-color: white;
+        height: 50vh;
+        z-index: 1;
+        width: 300px;
+        right: 45px;
+        top: 130px;
+        position: fixed;
+        text-align: center;
+        align-items: center;
+        
+    }  
+
+    .bar-ul::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid white;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid white;
+        right: 0px;
+        top: -26px;
+    }
+
+    .bar-li{
+        margin-top: 50px;
+    }
+
+    .bar-a{
+        color: hsl(212, 27%, 19%);
+    }
+}
+
+ /* ======================== End Media Querry Area ================ */
